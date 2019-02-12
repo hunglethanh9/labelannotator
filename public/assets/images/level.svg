@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Window/ Level</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Step-1" transform="translate(-799.000000, -87.000000)" fill="#000000">
+            <g id="Group" transform="translate(0.000000, 76.000000)">
+                <g id="Window/-Level" transform="translate(799.000000, 11.000000)">
+                    <path d="M1,15 C0.448818892,15 0,15.4488189 0,16 L0,17.0000001 C0,17.5511811 0.448818892,18 1,18 C1.55118108,18 2,17.5511811 2,17.0000001 L2,16 C2,15.4488189 1.55118108,15 1,15 Z" id="Shape"></path>
+                    <path d="M6,10 C5.44881889,10 5,10.4488189 5,11 L5,17.0000001 C5,17.5511811 5.44881889,18 6,18 C6.55118108,18 7,17.5511811 7,17.0000001 L7,11 C7,10.4488189 6.55118108,10 6,10 Z" id="Shape-Copy"></path>
+                    <path d="M11,5 C10.4488189,5 10,5.44881891 10,6.00000003 L10,17.0000001 C10,17.5511811 10.4488189,18 11,18 C11.5511811,18 12,17.5511811 12,17.0000001 L12,6.00000003 C12,5.44881891 11.5511811,5 11,5 Z" id="Shape-Copy-2"></path>
+                    <path d="M16,0 C15.4488189,0 15,0.448818907 15,1.00000003 L15,17.0000001 C15,17.5511811 15.4488189,18 16,18 C16.5511811,18 17,17.5511811 17,17.0000001 L17,1.00000003 C17,0.448818907 16.5511811,0 16,0 Z" id="Shape-Copy-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

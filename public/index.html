@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="assets/images/logo.jpg" type="image/jpg" sizes="16x16">
+  <title>Welcome to TD</title>
+
+  <!-- Support for mobile touch devices -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+  <!-- CSS -->
+
+  <!-- UI CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/jquery-ui/jquery-ui.min.css">
+
+  <!-- Viewer CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+</head>
+
+<body>
+  <!-- <div id="loader" class="loader1 loaderHide"> </div> -->
+  <header class="ai-header">
+    <div class="left-data">
+      <div class="ai-item brand-logo">
+        <a href="#"><img src="assets/images/logo.jpg" alt="Logo" /></a>
+      </div>
+      <div class="ai-item page-details">
+        <div class="menu-icon">
+          <img src="assets/images/menu.svg" alt="Menu" />
+          <div class="menu_list">
+            <ul>
+              <li>Open Project</li>
+              <li>Close Project</li>
+              <li class="exp_annts">Export Annotations</li>
+            </ul>
+          </div>
+        </div>
+        <h3 id="ai-study-description"></h3>
+      </div>
+
+    </div>
+    <div class="ai-item user-details">
+      <div class="user-options">
+        <span>Gaurav Gupta</span>
+      </div>
+      <div class="info-icon">
+        <img src="assets/images/info.svg" alt="Info" />
+      </div>
+    </div>
+  </header>
+  <section class="ai-container">
+    <div class="data-options" style="z-index:400">
+      <div class="data-img status">
+        <ul class="data-list">
+          <li class="series active">
+            <div class="opt-icon">
+              <img src="assets/images/series.svg" alt="Series" />
+            </div>
+            <div class="opt-name">
+              Series
+            </div>
+          </li>
+          <li id="zoomIn">
+            <div class="opt-icon">
+              <img src="assets/images/zoom-in.svg" alt="Zoom in" />
+            </div>
+            <div class="opt-name">
+              Zoom in
+            </div>
+          </li>
+          <li id="zoomOut">
+            <div class="opt-icon">
+              <img src="assets/images/zoom-out.svg" alt="Zoom out" />
+            </div>
+            <div class="opt-name">
+              Zoom out
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="data-img move">
+        <ul class="data-list data-edit">
+          <li id="probe">
+            <div class="opt-icon">
+              <img src="assets/images/probe.svg" alt="Probe" />
+            </div>
+            <div class="opt-name">
+              Probe
+            </div>
+          </li>
+          <li id="pan">
+            <div class="opt-icon">
+              <img src="assets/images/pan.svg" alt="Pan" />
+            </div>
+            <div class="opt-name">
+              Pan
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="data-img view">
+        <ul class="data-list data-view">
+          <li id="segmentation">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/segmentation.svg" alt="Segmentation" />
+            </div>
+            <div class="opt-name">
+              Segmentation
+            </div>
+          </div>
+          </li>
+          <li id="growthtool">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/segmentation.svg" alt="GrowthTool" />
+            </div>
+            <div class="opt-name">
+              2D Growth Tool
+            </div>
+          </div>
+            <div class="opt-sub-list rangers">
+              <div class="ai-dialog growthtool" data-close='growthtool'>
+                <div class="aid-close">
+                  <img src="assets/images/close.svg" alt="Close" />
+                </div>
+                <div class="aid-header">
+                  First Set Growth Range
+                </div>
+                <div class="aid-body">
+                  <p>Growth Range in HU: <strong class="growthrange-range">-0 to 0</strong></p>
+                  <div class="range-slider">
+                    <span class="before growthrange-before"></span>
+                    <div id="growthRange"></div>
+                  </div>
+                </div>
+                <div class="aid-footer">
+                  <button class="ai-btn primary reset-range" data-reset='growthrange'>Reset</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="freehand">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/draw.svg" alt="Draw" />
+            </div>
+            <div class="opt-name">
+              Draw
+            </div>
+          </div>
+          </li>
+          <li id="rectangle">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/draw.svg" alt="Rectangle" />
+            </div>
+            <div class="opt-name">
+              Rectangle
+            </div>
+          </div>
+          </li>
+          <li id="download">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/pt-select.svg" alt="Pt. select" />
+            </div>
+            <div class="opt-name">
+              Export
+            </div>
+          </div>
+          </li>
+          <!-- <li id="delete">
+            <div class="opt-icon">
+              <img src="assets/images/delete.svg" alt="Delete" />
+            </div>
+            <div class="opt-name">
+              Clear All
+            </div>
+          </li> -->
+          <li id="hide">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/eye1.svg" alt="Delete" />
+            </div>
+            <div class="opt-name">
+              Hide All
+            </div>
+          </div>
+          </li>
+        </ul>
+      </div>
+      <div class="data-img view">
+        <ul class="data-list data-view">
+          <li data-source='brightness' id='brightness'>
+            <div class="opt-group">
+              <div class="opt-icon">
+                <img src="assets/images/brightness.svg" alt="Brightness" />
+              </div>
+              <div class="opt-name">
+                Brightness
+              </div>
+            </div>
+            <div class="opt-sub-list rangers">
+              <div class="ai-dialog brightness" data-close='brightness'>
+                <div class="aid-close">
+                  <img src="assets/images/close.svg" alt="Close" />
+                </div>
+                <div class="aid-header">
+                  Brightness
+                </div>
+                <div class="aid-body">
+                  <p>Brightness value: <strong class="br-range">0</strong></p>
+                  <div class="range-slider">
+                    <span class="before br-before"></span>
+                    <div id="brightnessRange"></div>
+                  </div>
+                </div>
+                <div class="aid-footer">
+                  <button class="ai-btn primary reset-range" data-reset='br'>Reset</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li data-source='contrast' id='contrast'>
+            <div class="opt-group">
+              <div class="opt-icon">
+                <img src="assets/images/contrast.svg" alt="Contrast" />
+              </div>
+              <div class="opt-name">
+                Contrast
+              </div>
+            </div>
+            <div class="opt-sub-list rangers">
+              <div class="ai-dialog contrast" data-close='contrast'>
+                <div class="aid-close">
+                  <img src="assets/images/close.svg" alt="Close" />
+                </div>
+                <div class="aid-header">
+                  Contrast
+                </div>
+                <div class="aid-body">
+                  <p>Contrast value: <strong class="cr-range">0</strong></p>
+                  <div class="range-slider">
+                    <span class="before cr-before"></span>
+                    <div id="contrastRange"></div>
+                  </div>
+                </div>
+                <div class="aid-footer">
+                  <button class="ai-btn primary reset-range" data-reset='cr'>Reset</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li data-source='window' id='wlwc'>
+            <div class="opt-group">
+              <div class="opt-icon">
+                <img src="assets/images/level.svg" alt="Window/ Level" />
+              </div>
+              <div class="opt-name">
+                Window/ Level
+              </div>
+            </div>
+            <div class="opt-sub-list rangers">
+              <div class="ai-dialog window" data-close='window'>
+                <div class="aid-close">
+                  <img src="assets/images/close.svg" alt="Close" />
+                </div>
+                <div class="aid-header">
+                  Window/Level
+                </div>
+                <div class="aid-body">
+                  <p>Window width: <strong class="ww-range">0</strong></p>
+                  <div class="range-slider">
+                    <span class="before ww-before"></span>
+                    <div id="windowWidthRange"></div>
+                  </div>
+                  <p>Window center: <strong class="wc-range">0</strong></p>
+                  <div class="range-slider">
+                    <span class="before wc-before"></span>
+                    <div id="windowCenterRange"></div>
+                  </div>
+                </div>
+                <div class="aid-footer">
+                  <button class="ai-btn primary reset-range" data-reset='ww-wc'>Reset</button>
+                </div>
+                <div class="aid-header">
+                  Presets
+                </div>
+                <div class="aid-body">
+                  <div class="ai-btn-block">
+                    <button class="ai-btn primary preset-abdominal-soft-tissue">Abdominal / soft tissues</button>
+                    <button class="ai-btn primary preset-bone">Bone</button>
+                    <button class="ai-btn primary preset-brain">Brain</button>
+                    <button class="ai-btn primary preset-brain-narrow">Brain Narrow</button>
+                    <button class="ai-btn primary preset-liver">Liver</button>
+                    <button class="ai-btn primary preset-lung">Lung</button>
+                    <button class="ai-btn primary preset-subdural-brain">Subdural Brain</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="invert">
+            <div class="opt-icon">
+              <img src="assets/images/inverse.svg" alt="Inverse" />
+            </div>
+            <div class="opt-name">
+              Inverse
+            </div>
+          </li>
+          <li data-source='filters'>
+            <div class="opt-group">
+              <div class="opt-icon">
+                <img src="assets/images/filters.svg" alt="Filters" />
+              </div>
+              <div class="opt-name">
+                Filters
+              </div>
+            </div>
+            <div class="opt-sub-list rangers">
+              <div class="ai-dialog filters" data-close='filters'>
+                <div class="aid-close">
+                  <img src="assets/images/close.svg" alt="Close" />
+                </div>
+                <div class="aid-header">
+                  Image Filters
+                </div>
+                <div class="aid-body">
+                  <div class="current-filters">
+                    <p>Current filters:</p>
+                    <ul class="list-arrow">
+                      <li>Blur</li>
+                      <li>Emboss</li>
+                      <li>Sharpen</li>
+                    </ul>
+                  </div>
+                  <div class="ai-btn-block">
+                    <button class="ai-btn primary">Sharpen</button>
+                    <button class="ai-btn primary">Blur</button>
+                    <button class="ai-btn primary">Emboss</button>
+                    <button class="ai-btn primary">Edges (Sobel)</button>
+                  </div>
+                </div>
+                <div class="aid-footer">
+                  <button class="ai-btn primary">Reset</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="data-img layout">
+        <ul class="data-list">
+          <li>
+            <div class="opt-group">
+              <div class="opt-icon">
+                <img src="assets/images/layout.svg" alt="Layout" />
+              </div>
+              <div class="opt-name">
+                Layout
+              </div>
+            </div>
+            <div class="opt-sub-list">
+              <div class="grid-select">
+                <div class="grid-list one no-br active" data-grid-size='one' data-order-number="1" data-value='1x1'></div>
+                <div class="grid-list two" data-grid-size='one-by-two' data-order-number="2" data-value='2x1'></div>
+                <div class="grid-list three no-br no-bt" data-grid-size='one-by-one' data-order-number="3" data-value='1x2'></div>
+                <div class="grid-list four no-bt" data-grid-size='two-by-two' data-order-number="4" data-value='2x2'></div>
+              </div>
+            </div>
+          </li>
+      </div>
+    </div>
+    <div class="ai-main-data">
+      <div class="left-data">
+        <div class="data-thumbs">
+          <ul class="data-list-group thumbnails">
+          </ul>
+        </div>
+        <div class="data-main-images-parent">
+          <div class="annts_sel_class_block">
+            <h4>Select Class to proceed</h4>
+            <ul></ul>
+            <div class="form-actions">
+              <button id="cancel_annotation_class" type="button" class="ai-btn primary">Cancel</button>
+              <button id="select_annotation_class" type="button" class="ai-btn secondary">Go</button>
+            </div>
+          </div>
+          <div class="create-annotation-block" tool-data-index="" tool-type="freehand">
+            <div class="create-annotation-main">
+              <h2>New Annotation</h2>
+              <form id="annotationForm" name="annotationForm">
+                <div class="ai-inline-form">
+                  <div class="ai-form-group">
+                    <label>Select Class</label>
+                    <span class="ai-form-annotation">None</span>
+                    <input type="hidden" id="selectedColor" required>
+                    <input type="hidden" id="classSelected" required>
+                  </div>
+                  <div class="ai-form-group">
+                    <label>Annotation Name</label>
+                    <input type="text" class="ai-form-control" id="annotation_name" required />
+                  </div>
+                  <div class="ai-form-group text-area">
+                    <label>Description</label>
+                    <textarea class="ai-form-control" id="annotation_description" required></textarea>
+                  </div>
+                  <div class="form-actions">
+                    <button type="button" class="ai-btn primary cancel-annotation">Cancel</button>
+                    <button type="button" class="ai-btn secondary" id="annotation_add">+Add</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="annotation-color-picker">
+              <h2><img src="assets/images/left-arrow.svg" alt="Left Arrow" class="go-back" /> Pick Colour</h2>
+              <div class="color-pallette">
+                <div id="mycolor" class="color-pic"></div>
+              </div>
+            </div>
+          </div>
+          <!-- image viewport-->
+          <div class="data-main-images">
+            <div class="data-src-img current imageViewer">
+            </div>
+          </div>
+        </div>
+        <!-- Annotations-->
+        <div class="ai-annotations">
+          <h4 class="class_name" id="selectedClass">Selected Class: <span>None</span></h4>
+          <div class="ants_tabs_row">
+            <ul id="annotationClasses">
+            </ul>
+          </div>
+          <div id="annotations_list" class="hide">
+            <h4>Annotations</h4>
+            <ul class="ants-list-group">
+            </ul>
+          </div>
+        </div>
+        <!--Export -->
+        <div class="exp_settings_pop">
+          <h4>Export settings</h4>
+          <div class="aid-close">
+            <img src="assets/images/close.svg" alt="Close">
+          </div>
+          <form name="annotationForm" novalidate="">
+            <div class="ai-inline-form">
+              <div class="ai-form-group">
+                <label>Annotation Class</label>
+                <select id="export_annotation_class" class="ai-form-control">
+                  <option value="">All</option>
+                </select>
+              </div>
+              <div class="cmnt_check">
+                <input type="checkbox" name="" id="hide_annts" data-check="comment-1" class="">
+                <label for="hide_annts">Hide Annotations</label>
+              </div>
+              <div class="cmnt_check">
+                <input type="checkbox" name="" id="mask_img" data-check="comment-1" class="">
+                <label for="mask_img">Mask Image</label>
+              </div>
+              <div class="form-actions">
+                <button type="button" class="ai-btn primary export_btn">Export</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="exportContainer" class="hide">
+  </div>
+
+</body>
+<!-- Javascripts -->
+
+<!-- Include Jquery -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+
+<!-- Include Jquery UI for drag/drop -->
+<script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+
+<!-- Include color picker -->
+<script src="assets/vendor/evol-color-picker/evol-colorpicker.min.js"></script>
+
+<!-- Include Jquery Cookie -->
+<script src="assets/vendor/jquery/js.cookie.js"></script>
+
+<!-- Include Axios -->
+<script src="assets/vendor/axios/axios.min.js"></script>
+
+<!-- Include JQuery Hammerjs adapter for mobile touch-->
+<script src="assets/vendor/cornerstone/hammer.min.js"></script>
+
+<!-- include the cornerstone library -->
+<script src="assets/vendor/cornerstone/cornerstone.min.js"></script>
+
+<!-- include the cornerstone library -->
+<script src="assets/vendor/cornerstone/cornerstoneMath.min.js"></script>
+
+<!-- include the cornerstone tools library -->
+<script src="assets/vendor/cornerstone/cornerstoneTools.min.js"></script>
+
+<!-- include the cornerstoneWADOImageLoader library -->
+<script src="assets/vendor/cornerstone/cornerstoneWADOImageLoader.min.js"></script>
+
+<!-- include the cornerstoneWebImageLoader library -->
+<script src="assets/vendor/cornerstone/cornerstoneWebImageLoader.min.js"></script>
+
+<!-- include the dicomParser library -->
+<script src="assets/vendor/cornerstone/dicomParser.min.js"></script>
+
+<!-- Include viewer scripts -->
+<!-- build:js -->
+<script src="assets/js/config.js"></script>
+<script src="assets/js/allscripts.js"></script>
+<!-- endbuild -->
+
+</html>

@@ -1,0 +1,751 @@
+{
+"editor": {
+	"brightness": 40,
+	"activeValidationIndex": 0,
+	"contrast": 400,
+	"zoom": 1.5
+},
+  "classes": {
+    "cyst": {
+      "color": "#00ff00"
+    },
+    "nodule": {
+      "color": "#ff0000"
+    }
+  },
+  "images" : { 
+  "patientName": "MISTER^CT",
+  "patientId": "2178309",
+  "studyDate": "20010105",
+  "modality": "CT",
+  "studyDescription": "CHEST",
+  "numImages": 111,
+  "studyId": "ctstudy",
+  "seriesList": [{
+    "seriesUid": "1.2.840.113619.2.30.1.1762295590.1623.978668949.890",
+    "seriesDescription": "HELICAL CHEST",
+    "seriesNumber": "2",
+    "instanceList": [{
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.109.dcm",
+      "instanceId": "828301f1-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.110.dcm",
+      "instanceId": "82832900-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.111.dcm",
+      "instanceId": "82832901-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.112.dcm",
+      "instanceId": "82832902-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.113.dcm",
+      "instanceId": "82832903-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.114.dcm",
+      "instanceId": "82832904-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.115.dcm",
+      "instanceId": "82832905-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.116.dcm",
+      "instanceId": "82832906-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.117.dcm",
+      "instanceId": "82832907-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.118.dcm",
+      "instanceId": "82832908-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.119.dcm",
+      "instanceId": "82832909-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.120.dcm",
+      "instanceId": "8283290a-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.121.dcm",
+      "instanceId": "8283290b-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.122.dcm",
+      "instanceId": "8283290c-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.123.dcm",
+      "instanceId": "8283290d-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.124.dcm",
+      "instanceId": "8283290e-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.125.dcm",
+      "instanceId": "8283290f-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.126.dcm",
+      "instanceId": "82832910-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.127.dcm",
+      "instanceId": "82832911-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.128.dcm",
+      "instanceId": "82832912-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.129.dcm",
+      "instanceId": "82832913-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.130.dcm",
+      "instanceId": "82832914-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.131.dcm",
+      "instanceId": "82832915-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.132.dcm",
+      "instanceId": "82832916-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.133.dcm",
+      "instanceId": "82832917-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.134.dcm",
+      "instanceId": "82832918-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.135.dcm",
+      "instanceId": "82832919-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.136.dcm",
+      "instanceId": "8283291a-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.137.dcm",
+      "instanceId": "8283291b-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.138.dcm",
+      "instanceId": "8283291c-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.139.dcm",
+      "instanceId": "8283291d-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.140.dcm",
+      "instanceId": "8283291e-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.141.dcm",
+      "instanceId": "8283291f-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.142.dcm",
+      "instanceId": "82832920-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.143.dcm",
+      "instanceId": "82832921-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.144.dcm",
+      "instanceId": "82832922-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.145.dcm",
+      "instanceId": "82832923-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.146.dcm",
+      "instanceId": "82832924-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.147.dcm",
+      "instanceId": "82832925-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.148.dcm",
+      "instanceId": "82832926-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.149.dcm",
+      "instanceId": "82832927-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.150.dcm",
+      "instanceId": "82832928-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.151.dcm",
+      "instanceId": "82832929-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.152.dcm",
+      "instanceId": "8283292a-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.153.dcm",
+      "instanceId": "8283292b-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.154.dcm",
+      "instanceId": "8283292c-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.155.dcm",
+      "instanceId": "8283292d-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.156.dcm",
+      "instanceId": "8283292e-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.157.dcm",
+      "instanceId": "8283292f-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.158.dcm",
+      "instanceId": "82832930-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.159.dcm",
+      "instanceId": "82832931-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.161.dcm",
+      "instanceId": "82832932-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.162.dcm",
+      "instanceId": "82832933-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.163.dcm",
+      "instanceId": "82832934-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.164.dcm",
+      "instanceId": "82832935-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.165.dcm",
+      "instanceId": "82832936-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.166.dcm",
+      "instanceId": "82832937-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.167.dcm",
+      "instanceId": "82832938-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.168.dcm",
+      "instanceId": "82832939-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.169.dcm",
+      "instanceId": "8283293a-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.170.dcm",
+      "instanceId": "8283293b-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.171.dcm",
+      "instanceId": "8283293c-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.172.dcm",
+      "instanceId": "8283293d-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.173.dcm",
+      "instanceId": "8283293e-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.174.dcm",
+      "instanceId": "8283293f-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.175.dcm",
+      "instanceId": "82832940-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.176.dcm",
+      "instanceId": "82832941-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.177.dcm",
+      "instanceId": "82832942-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.178.dcm",
+      "instanceId": "82832943-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.179.dcm",
+      "instanceId": "82832944-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.180.dcm",
+      "instanceId": "82832945-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.181.dcm",
+      "instanceId": "82835010-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.182.dcm",
+      "instanceId": "82835011-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.183.dcm",
+      "instanceId": "82835012-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.183.dcm",
+      "instanceId": "82835013-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.185.dcm",
+      "instanceId": "82835014-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.186.dcm",
+      "instanceId": "82835015-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.187.dcm",
+      "instanceId": "82835016-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.188.dcm",
+      "instanceId": "82835017-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.189.dcm",
+      "instanceId": "82835018-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.190.dcm",
+      "instanceId": "82835019-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.191.dcm",
+      "instanceId": "8283501a-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.192.dcm",
+      "instanceId": "8283501b-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.193.dcm",
+      "instanceId": "8283501c-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.194.dcm",
+      "instanceId": "8283501d-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.195.dcm",
+      "instanceId": "8283501e-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.196.dcm",
+      "instanceId": "8283501f-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.197.dcm",
+      "instanceId": "82835020-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.198.dcm",
+      "instanceId": "82835021-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.199.dcm",
+      "instanceId": "82835022-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.200.dcm",
+      "instanceId": "82835023-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.201.dcm",
+      "instanceId": "82835024-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.202.dcm",
+      "instanceId": "82835025-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.203.dcm",
+      "instanceId": "82835026-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.204.dcm",
+      "instanceId": "82835027-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.205.dcm",
+      "instanceId": "82835028-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.206.dcm",
+      "instanceId": "82835029-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.207.dcm",
+      "instanceId": "8283502a-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.208.dcm",
+      "instanceId": "8283502b-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.209.dcm",
+      "instanceId": "8283502c-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.210.dcm",
+      "instanceId": "8283502d-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.211.dcm",
+      "instanceId": "8283502e-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.212.dcm",
+      "instanceId": "8283502f-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.213.dcm",
+      "instanceId": "82835030-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.214.dcm",
+      "instanceId": "82835031-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.215.dcm",
+      "instanceId": "82835032-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.216.dcm",
+      "instanceId": "82835033-0815-11e9-b5de-d370f806bab7"
+    }, {
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668950.217.dcm",
+      "instanceId": "82835034-0815-11e9-b5de-d370f806bab7"
+    }],
+    "seriesId": "828301f0-0815-11e9-b5de-d370f806bab7"
+  }, {
+    "seriesUid": "1.2.840.113619.2.30.1.1762295590.1623.978668949.887",
+    "seriesDescription": "SCOUT PA",
+    "seriesNumber": "1",
+    "instanceList": [{
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668949.888.dcm",
+      "instanceId": "82835036-0815-11e9-b5de-d370f806bab7"
+    }],
+    "seriesId": "82835035-0815-11e9-b5de-d370f806bab7"
+  }, {
+    "seriesUid": "1.2.840.113619.2.30.1.1762295590.1623.978668949.887",
+    "seriesDescription": "SCOUT LAT",
+    "seriesNumber": "1.1",
+    "instanceList": [{
+      "imageId": "dicomweb://s3.amazonaws.com/lury/CTStudy/1.2.840.113619.2.30.1.1762295590.1623.978668949.889.dcm",
+      "instanceId": "82835038-0815-11e9-b5de-d370f806bab7"
+    }],
+    "seriesId": "82835037-0815-11e9-b5de-d370f806bab7"
+  }, {
+    "seriesUid": "5",
+    "seriesDescription": "PATHOLOGY",
+    "seriesNumber": "5",
+    "instanceList": [{
+      "imageId": "https://upload.wikimedia.org/wikipedia/commons/3/32/Clear_cell_renal_cell_carcinoma_high_mag.jpg",
+      "instanceId": "8283503a-0815-11e9-b5de-d370f806bab7",
+      "annotations": [{
+        "annotatedOn": 1546940333422,
+        "annotationDescription": "image index 1",
+        "toolName": "freehand",
+        "toolData": {
+          "active": false,
+          "invalidated": false,
+          "polyBoundingBox": {
+            "width": 104.1023017902813,
+            "left": 202.96675191815862,
+            "top": 183.94884910485936,
+            "height": 70.05626598465471
+          },
+          "visible": true,
+          "highlight": false,
+          "area": 5667.918132403635,
+          "canComplete": false,
+          "textBox": {
+            "active": false,
+            "y": 218.97698209718672,
+            "drawnIndependently": true,
+            "x": 307.0690537084399,
+            "boundingBox": {
+              "width": 155.92041015625,
+              "left": 554,
+              "top": 321.95312500000006,
+              "height": 25
+            },
+            "allowedOutsideImage": true,
+            "movesIndependently": false,
+            "hasMoved": false,
+            "hasBoundingBox": true
+          },
+          "handles": [{
+              "active": true,
+              "y": 199.0076726342711,
+              "lines": [{
+                "y": 204.90025575447572,
+                "x": 206.89514066496164
+              }],
+              "highlight": true,
+              "x": 210.16879795396423
+            },
+            {
+              "active": true,
+              "y": 204.90025575447572,
+              "lines": [{
+                "y": 211.44757033248084,
+                "x": 203.62148337595912
+              }],
+              "highlight": true,
+              "x": 206.89514066496164
+            },
+            {
+              "active": true,
+              "y": 211.44757033248084,
+              "lines": [{
+                "y": 223.23273657289005,
+                "x": 202.96675191815862
+              }],
+              "highlight": true,
+              "x": 203.62148337595912
+            },
+            {
+              "active": true,
+              "y": 223.23273657289005,
+              "lines": [{
+                "y": 234.36317135549874,
+                "x": 204.2762148337596
+              }],
+              "highlight": true,
+              "x": 202.96675191815862
+            },
+            {
+              "active": true,
+              "y": 234.36317135549874,
+              "lines": [{
+                "y": 240.91048593350385,
+                "x": 209.51406649616374
+              }],
+              "highlight": true,
+              "x": 204.2762148337596
+            },
+            {
+              "active": true,
+              "y": 240.91048593350385,
+              "lines": [{
+                "y": 246.80306905370847,
+                "x": 216.71611253196934
+              }],
+              "highlight": true,
+              "x": 209.51406649616374
+            },
+            {
+              "active": true,
+              "y": 246.80306905370847,
+              "lines": [{
+                "y": 252.04092071611257,
+                "x": 226.537084398977
+              }],
+              "highlight": true,
+              "x": 216.71611253196934
+            },
+            {
+              "active": true,
+              "y": 252.04092071611257,
+              "lines": [{
+                "y": 253.35038363171358,
+                "x": 237.01278772378518
+              }],
+              "highlight": true,
+              "x": 226.537084398977
+            },
+            {
+              "active": true,
+              "y": 253.35038363171358,
+              "lines": [{
+                "y": 254.00511508951408,
+                "x": 247.48849104859337
+              }],
+              "highlight": true,
+              "x": 237.01278772378518
+            },
+            {
+              "active": true,
+              "y": 254.00511508951408,
+              "lines": [{
+                "y": 254.00511508951408,
+                "x": 259.2736572890026
+              }],
+              "highlight": true,
+              "x": 247.48849104859337
+            },
+            {
+              "active": true,
+              "y": 254.00511508951408,
+              "lines": [{
+                "y": 248.76726342710998,
+                "x": 273.6777493606138
+              }],
+              "highlight": true,
+              "x": 259.2736572890026
+            },
+            {
+              "active": true,
+              "y": 248.76726342710998,
+              "lines": [{
+                "y": 240.25575447570336,
+                "x": 292.66496163682865
+              }],
+              "highlight": true,
+              "x": 273.6777493606138
+            },
+            {
+              "active": true,
+              "y": 240.25575447570336,
+              "lines": [{
+                "y": 236.32736572890028,
+                "x": 300.5217391304348
+              }],
+              "highlight": true,
+              "x": 292.66496163682865
+            },
+            {
+              "active": true,
+              "y": 236.32736572890028,
+              "lines": [{
+                "y": 230.43478260869568,
+                "x": 306.4143222506394
+              }],
+              "highlight": true,
+              "x": 300.5217391304348
+            },
+            {
+              "active": true,
+              "y": 230.43478260869568,
+              "lines": [{
+                "y": 221.92327365728903,
+                "x": 307.0690537084399
+              }],
+              "highlight": true,
+              "x": 306.4143222506394
+            },
+            {
+              "active": true,
+              "y": 221.92327365728903,
+              "lines": [{
+                "y": 214.06649616368287,
+                "x": 305.7595907928389
+              }],
+              "highlight": true,
+              "x": 307.0690537084399
+            },
+            {
+              "active": true,
+              "y": 214.06649616368287,
+              "lines": [{
+                "y": 207.51918158567776,
+                "x": 301.1764705882353
+              }],
+              "highlight": true,
+              "x": 305.7595907928389
+            },
+            {
+              "active": true,
+              "y": 207.51918158567776,
+              "lines": [{
+                "y": 203.5907928388747,
+                "x": 295.93861892583124
+              }],
+              "highlight": true,
+              "x": 301.1764705882353
+            },
+            {
+              "active": true,
+              "y": 203.5907928388747,
+              "lines": [{
+                "y": 199.66240409207163,
+                "x": 292.01023017902816
+              }],
+              "highlight": true,
+              "x": 295.93861892583124
+            },
+            {
+              "active": true,
+              "y": 199.66240409207163,
+              "lines": [{
+                "y": 197.0434782608696,
+                "x": 286.11764705882354
+              }],
+              "highlight": true,
+              "x": 292.01023017902816
+            },
+            {
+              "active": true,
+              "y": 197.0434782608696,
+              "lines": [{
+                "y": 193.76982097186703,
+                "x": 280.2250639386189
+              }],
+              "highlight": true,
+              "x": 286.11764705882354
+            },
+            {
+              "active": true,
+              "y": 193.76982097186703,
+              "lines": [{
+                "y": 190.49616368286448,
+                "x": 271.05882352941177
+              }],
+              "highlight": true,
+              "x": 280.2250639386189
+            },
+            {
+              "active": true,
+              "y": 190.49616368286448,
+              "lines": [{
+                "y": 187.22250639386192,
+                "x": 260.5831202046036
+              }],
+              "highlight": true,
+              "x": 271.05882352941177
+            },
+            {
+              "active": true,
+              "y": 187.22250639386192,
+              "lines": [{
+                "y": 185.25831202046038,
+                "x": 254.69053708439898
+              }],
+              "highlight": true,
+              "x": 260.5831202046036
+            },
+            {
+              "active": true,
+              "y": 185.25831202046038,
+              "lines": [{
+                "y": 184.60358056265986,
+                "x": 249.45268542199491
+              }],
+              "highlight": true,
+              "x": 254.69053708439898
+            },
+            {
+              "active": true,
+              "y": 184.60358056265986,
+              "lines": [{
+                "y": 184.60358056265986,
+                "x": 242.2506393861893
+              }],
+              "highlight": true,
+              "x": 249.45268542199491
+            },
+            {
+              "active": true,
+              "y": 184.60358056265986,
+              "lines": [{
+                "y": 183.94884910485936,
+                "x": 237.01278772378518
+              }],
+              "highlight": true,
+              "x": 242.2506393861893
+            },
+            {
+              "active": true,
+              "y": 183.94884910485936,
+              "lines": [{
+                "y": 183.94884910485936,
+                "x": 229.81074168797957
+              }],
+              "highlight": true,
+              "x": 237.01278772378518
+            },
+            {
+              "active": true,
+              "y": 183.94884910485936,
+              "lines": [{
+                "y": 183.94884910485936,
+                "x": 222.60869565217396
+              }],
+              "highlight": true,
+              "x": 229.81074168797957
+            },
+            {
+              "active": false,
+              "y": 183.94884910485936,
+              "lines": [{
+                "y": 187.22250639386192,
+                "x": 217.37084398976984
+              }],
+              "highlight": true,
+              "x": 222.60869565217396
+            },
+            {
+              "active": false,
+              "y": 187.22250639386192,
+              "lines": [{
+                "y": 191.8056265984655,
+                "x": 214.7519181585678
+              }],
+              "highlight": true,
+              "x": 217.37084398976984
+            },
+            {
+              "active": false,
+              "y": 191.8056265984655,
+              "lines": [{
+                "active": true,
+                "y": 199.0076726342711,
+                "lines": [{
+                  "y": 204.90025575447572,
+                  "x": 206.89514066496164
+                }],
+                "highlight": true,
+                "x": 210.16879795396423
+              }],
+              "highlight": true,
+              "x": 214.7519181585678
+            }
+          ],
+          "id": "44708bfb-b589-459b-90a9-efac85b2536f"
+        },
+        "annotationName": "annotation 1",
+        "toolDataIndex": "0",
+        "annotationClass": "cs1",
+        "selectedColor": "#1f497d",
+        "id": "6139602e-3eee-495e-a9e0-34f180adaa42"
+      }]
+    }],
+    "seriesId": "82835039-0815-11e9-b5de-d370f806bab7"
+  }]
+  }
+}

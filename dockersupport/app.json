@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "dicomviewer",
+    "script": "server.js",
+    "watch": true,
+    "merge_logs": true,
+    "out_file": "/tmp/servers.log",
+    "log_date_format": "MM/DD/YYYY HH:mm:ss",
+    "cwd": "/home/user/roundtableai/dicomviewer/",
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 8080
+    }
+  }]
+}
