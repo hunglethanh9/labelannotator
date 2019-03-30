@@ -1,8 +1,8 @@
 // APPLICATION BASE URL
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'http://localhost:8090';
 
 // DATA SERVICE URL(USED TO PULL PROJECT JSON)
-const SERVICE_URL = 'http://localhost:8000';
+const SERVICE_URL = 'http://localhost:8090';
 
 var editorConfig;
 var studyConfig;
