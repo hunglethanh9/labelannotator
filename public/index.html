@@ -44,7 +44,7 @@
     </div>
     <div class="ai-item user-details">
       <div class="user-options">
-        <span>Gaurav Gupta</span>
+        <span>User Name</span>
       </div>
       <div class="info-icon">
         <img src="assets/images/info.svg" alt="Info" />
@@ -52,7 +52,7 @@
     </div>
   </header>
   <section class="ai-container">
-    <div class="data-options" style="z-index:400">
+    <div class="data-options">
       <div class="data-img status">
         <ul class="data-list">
           <li class="series active">
@@ -77,6 +77,14 @@
             </div>
             <div class="opt-name">
               Zoom out
+            </div>
+          </li>
+          <li id="stackScroll">
+            <div class="opt-icon">
+              <img src="assets/images/menu.svg" alt="Stack Scroll" />
+            </div>
+            <div class="opt-name">
+              StackScroll
             </div>
           </li>
         </ul>
@@ -139,6 +147,37 @@
                 </div>
                 <div class="aid-footer">
                   <button class="ai-btn primary reset-range" data-reset='growthrange'>Reset</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="growthtool3d">
+            <div class="opt-group">
+            <div class="opt-icon">
+              <img src="assets/images/segmentation.svg" alt="3DGrowthTool" />
+            </div>
+            <div class="opt-name">
+              3D Growth Tool
+            </div>
+          </div>
+            <div class="opt-sub-list rangers">
+              <div class="ai-dialog growthtool" data-close='growthtool'>
+                <!-- <div class="aid-close">
+                  <img src="assets/images/close.svg" alt="Close" />
+                </div> -->
+                <div class="aid-header">
+                  First Set Growth Range
+                </div>
+                <div class="aid-body">
+                  <p>Growth Range in HU: <strong class="growthrange3d-range">-0 to 0</strong></p>
+                  <div class="range-slider">
+                    <span class="before growthrange3d-before"></span>
+                    <div id="growthRange3d"></div>
+                  </div>
+                </div>
+                <div class="aid-footer">
+                  <button class="ai-btn primary" id='save3dregion'>Save 3D Region</button>
+                  <button class="ai-btn primary" id='clear3dregion'>Clear 3D Region</button>
                 </div>
               </div>
             </div>
