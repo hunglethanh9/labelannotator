@@ -59,7 +59,7 @@ app.get('/login', function (req, res) {
 });
 
 app.get('/project', function (req, res) {
-  let rawData = fs.readFileSync(__basedir + '/private/CRStudyWithUUID.json');
+  let rawData = fs.readFileSync(__basedir + '/private/project');
   res.status(200).json(
     JSON.parse(rawData)
   );
