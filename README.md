@@ -34,5 +34,7 @@ cp .env.example .env
 ```bash
 gulp server
 ```
+Browse to http://localhost:8000
+
 ## Replace dataset with your Dicom / PNG files
 You can do annotations for your dataset by replacing JSON formatted study description in file:'/private/project' 
