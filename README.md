@@ -21,6 +21,7 @@ Click this [link](https://app.trainingdata.io/v1/radiology/?task=69&project=29) 
 Install dependencies:
 ```bash
 npm install
+npm install --global gulp-cli
 ```
 
 Set environment variables:
